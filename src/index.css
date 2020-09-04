@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: whitesmoke;
+  background-color: #908d8d;
 }
 
 code {
@@ -15,11 +15,16 @@ code {
 
 .veryoutside {
   width: 100%;
+  /* height: 100%; */
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
 }
 
 .flip-book {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
   display: none;
   background-size: cover;
   margin: auto 0;
@@ -34,6 +39,14 @@ code {
   background-size: cover;
   /* background-image: url("./img/b/1.jpg"); */
   text-shadow: 0 0 10px white, 0 0 10px white;
+}
+
+.page:nth-child(even) {
+  border-radius: 13px 0px 0px 13px;
+}
+
+.page:nth-child(odd) {
+  border-radius: 0px 13px 13px 0px;
 }
 
 .page .page-content {
@@ -135,6 +148,94 @@ code {
 .container {
   width: 100%;
   position: fixed;
-  bottom: 5px;
+  bottom: 10px;
   text-align: center;
+  line-height: 150%;
+}
+
+
+.index {
+  position: fixed;
+  width: 130px;
+  height: 650px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  right: 150px;
+  z-index: -10;
+}
+
+.indexchild {
+  width: 120px;
+  height: 38px;
+  line-height: 38px;
+  background-color: grey;
+  margin: 5px;
+  border-radius: 3px;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+@media (max-width: 2000px
+
+  /*1023px*/
+) {
+  .left {
+    position: fixed;
+    left: 180px;
+  }
+
+  .right {
+    position: fixed;
+    right: 180px;
+  }
+
+  .left,
+  .right {
+    width: 50px;
+    height: 80px;
+    border: none;
+    font-size: 70px;
+    background: none;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .left {
+    position: fixed;
+    left: 10px;
+  }
+
+  .right {
+    position: fixed;
+    right: 10px;
+  }
+
+  .left,
+  .right {
+    width: 20px;
+    height: 50px;
+    border: none;
+    font-size: 40px;
+    background: none;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+
+  }
+
+  .container {
+    font-size: 8px;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    line-height: 150%;
+  }
+
 }
