@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kjhousing/static/css/main.923c1028.chunk.css",
+    "main.js": "/kjhousing/static/js/main.e85cbf8b.chunk.js",
+    "main.js.map": "/kjhousing/static/js/main.e85cbf8b.chunk.js.map",
+    "runtime-main.js": "/kjhousing/static/js/runtime-main.95bc5e9d.js",
+    "runtime-main.js.map": "/kjhousing/static/js/runtime-main.95bc5e9d.js.map",
+    "static/js/2.1370c5b4.chunk.js": "/kjhousing/static/js/2.1370c5b4.chunk.js",
+    "static/js/2.1370c5b4.chunk.js.map": "/kjhousing/static/js/2.1370c5b4.chunk.js.map",
+    "index.html": "/kjhousing/index.html",
+    "precache-manifest.cafd07908b5d0996a63da4df594acc4c.js": "/kjhousing/precache-manifest.cafd07908b5d0996a63da4df594acc4c.js",
+    "service-worker.js": "/kjhousing/service-worker.js",
+    "static/css/main.923c1028.chunk.css.map": "/kjhousing/static/css/main.923c1028.chunk.css.map",
+    "static/js/2.1370c5b4.chunk.js.LICENSE.txt": "/kjhousing/static/js/2.1370c5b4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95bc5e9d.js",
+    "static/js/2.1370c5b4.chunk.js",
+    "static/css/main.923c1028.chunk.css",
+    "static/js/main.e85cbf8b.chunk.js"
+  ]
+}
