@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/whatenv.github.io/kjhousing/static/css/main.923c1028.chunk.css",
-    "main.js": "/whatenv.github.io/kjhousing/static/js/main.d220efb8.chunk.js",
-    "main.js.map": "/whatenv.github.io/kjhousing/static/js/main.d220efb8.chunk.js.map",
-    "runtime-main.js": "/whatenv.github.io/kjhousing/static/js/runtime-main.bc86e5ea.js",
-    "runtime-main.js.map": "/whatenv.github.io/kjhousing/static/js/runtime-main.bc86e5ea.js.map",
-    "static/js/2.1370c5b4.chunk.js": "/whatenv.github.io/kjhousing/static/js/2.1370c5b4.chunk.js",
-    "static/js/2.1370c5b4.chunk.js.map": "/whatenv.github.io/kjhousing/static/js/2.1370c5b4.chunk.js.map",
-    "index.html": "/whatenv.github.io/kjhousing/index.html",
-    "precache-manifest.f79e25d2da8ab6b53c4ce514334b2e41.js": "/whatenv.github.io/kjhousing/precache-manifest.f79e25d2da8ab6b53c4ce514334b2e41.js",
-    "service-worker.js": "/whatenv.github.io/kjhousing/service-worker.js",
-    "static/css/main.923c1028.chunk.css.map": "/whatenv.github.io/kjhousing/static/css/main.923c1028.chunk.css.map",
-    "static/js/2.1370c5b4.chunk.js.LICENSE.txt": "/whatenv.github.io/kjhousing/static/js/2.1370c5b4.chunk.js.LICENSE.txt"
+    "main.css": "/kjhousing/static/css/main.923c1028.chunk.css",
+    "main.js": "/kjhousing/static/js/main.bfb089dd.chunk.js",
+    "main.js.map": "/kjhousing/static/js/main.bfb089dd.chunk.js.map",
+    "runtime-main.js": "/kjhousing/static/js/runtime-main.95bc5e9d.js",
+    "runtime-main.js.map": "/kjhousing/static/js/runtime-main.95bc5e9d.js.map",
+    "static/js/2.1370c5b4.chunk.js": "/kjhousing/static/js/2.1370c5b4.chunk.js",
+    "static/js/2.1370c5b4.chunk.js.map": "/kjhousing/static/js/2.1370c5b4.chunk.js.map",
+    "index.html": "/kjhousing/index.html",
+    "precache-manifest.2c4ede863d488de5588b0e0aa60a3558.js": "/kjhousing/precache-manifest.2c4ede863d488de5588b0e0aa60a3558.js",
+    "service-worker.js": "/kjhousing/service-worker.js",
+    "static/css/main.923c1028.chunk.css.map": "/kjhousing/static/css/main.923c1028.chunk.css.map",
+    "static/js/2.1370c5b4.chunk.js.LICENSE.txt": "/kjhousing/static/js/2.1370c5b4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc86e5ea.js",
+    "static/js/runtime-main.95bc5e9d.js",
     "static/js/2.1370c5b4.chunk.js",
     "static/css/main.923c1028.chunk.css",
-    "static/js/main.d220efb8.chunk.js"
+    "static/js/main.bfb089dd.chunk.js"
   ]
 }
