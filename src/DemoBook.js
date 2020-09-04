@@ -1,6 +1,6 @@
 import HTMLFlipBook from "react-pageflip";
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -76,7 +76,7 @@ class DemoBook extends React.Component {
           className="demo-book"
           ref={(el) => (this.flipBook = el)}
         >
-          <PageCover>노바마루 브로셔</PageCover>
+          <PageCover>broc.</PageCover>
           <Page number={1} bg={"./img/front.png"}></Page>
           <Page number={2} bg={"./img/contents.jpg"}></Page>
           <Page number={3} bg={"./img/"}>
