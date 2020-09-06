@@ -37,7 +37,6 @@ code {
   border: solid 1px #c2b5a3;
   overflow: hidden;
   background-size: cover;
-  /* background-image: url("./img/b/1.jpg"); */
   text-shadow: 0 0 10px white, 0 0 10px white;
 }
 
@@ -60,6 +59,7 @@ code {
   font-size: 30px;
   /* font-weight: bold; */
   padding: 20px;
+  background-position: center;
 }
 
 .page .page-content .page-header {

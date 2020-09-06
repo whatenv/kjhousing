@@ -20,7 +20,7 @@ const Page = React.forwardRef((props, ref) => {
         style={{
           backgroundImage: "url(" + process.env.PUBLIC_URL + `${props.bg})`,
           // backgroundImage: `url("/images/front.png")`,
-          backgroundPosition: "center",
+          // backgroundPosition: "center",
         }}
       >
         {/* <h2 className="page-header">Page header - {props.number}</h2> */}
@@ -286,7 +286,6 @@ class DemoBook extends React.Component {
             강마루와이드 소개
           </Page>
           <Page number={82} bg={"/images/gangw_pattern.jpeg"}>
-            강마루와이드 패턴컷
           </Page>
           <Page number={83} bg={"/images/gang_w/1.jpg"}>
             와이드라이트
@@ -426,8 +425,7 @@ class DemoBook extends React.Component {
             </button>
           </div>
           <div>
-            Copyright &#169; 구정하우징 | 이 브로셔형 홈페이지의 저작권은
-            구정하우징에게 있습니다.
+            Copyright &#169; 구정하우징 | 이 브로셔형 홈페이지의 저작권은 구정하우징에게 있습니다.
           </div>
         </div>
       </div >
