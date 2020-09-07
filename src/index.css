@@ -181,13 +181,6 @@ div .map {
   font-size: 15px;
 }
 
-.left {
-  display: none;
-}
-
-.right {
-  display: none;
-}
 
 @media (max-width: 2000px
 
@@ -208,14 +201,13 @@ div .map {
 
   .left {
     position: fixed;
-    left: 135px;
-    z-index: 100;
+    right: calc(50% + 400px);
   }
 
   .right {
     position: fixed;
-    right: 135px;
-    z-index: 100;
+    left: calc(50% + 400px);
+
   }
 
   .left,
@@ -227,7 +219,7 @@ div .map {
     background: none;
     color: whitesmoke;
     text-shadow: 0 0 5px black, 0 0 5px black;
-
+    z-index: 100;
   }
 
   .page:nth-child(even) {
