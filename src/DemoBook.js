@@ -128,31 +128,31 @@ class DemoBook extends React.Component {
             내추럴오크
           </Page>
           <Page bg={"/images/s/2.jpg"}>
-            두시에
+            티크
           </Page>
           <Page bg={"/images/s/3.jpg"}>
-            러스틱멀바우
-          </Page>
-          <Page bg={"/images/s/4.jpg"}>
-            러스틱티크
-          </Page>
-          <Page bg={"/images/s/5.jpg"}>
-            멀바우
-          </Page>
-          <Page bg={"/images/s/6.jpg"}>
-            버찌
-          </Page>
-          <Page bg={"/images/s/7.jpg"}>
             월넛
           </Page>
-          <Page bg={"/images/s/8.jpg"}>
+          <Page bg={"/images/s/4.jpg"}>
+            멀바우
+          </Page>
+          <Page bg={"/images/s/5.jpg"}>
+            두시에
+          </Page>
+          <Page bg={"/images/s/6.jpg"}>
             이로코
           </Page>
-          <Page bg={"/images/s/9.jpg"}>
+          <Page bg={"/images/s/7.jpg"}>
             카바랜덤
           </Page>
+          <Page bg={"/images/s/8.jpg"}>
+            버찌
+          </Page>
+          <Page bg={"/images/s/9.jpg"}>
+            러스틱티크
+          </Page>
           <Page bg={"/images/s/10.jpg"}>
-            티크
+            러스틱멀바우
           </Page>
           <Page bg={"/images/m.png"}></Page>
           <Page bg={"/images/m_pattern.jpeg"}></Page>
@@ -160,10 +160,10 @@ class DemoBook extends React.Component {
             내추럴오크
           </Page>
           <Page bg={"/images/m/2.jpg"}>
-            브라운토치
+            샌드브라운
           </Page>
           <Page bg={"/images/m/3.jpg"}>
-            샌드브라운
+            브라운토치
           </Page>
           <Page bg={"/images/m/4.jpg"}>
             프렌치블랙
@@ -174,46 +174,46 @@ class DemoBook extends React.Component {
             내추럴오크
           </Page>
           <Page bg={"/images/w/2.jpg"}>
-            러스틱멀바우
-          </Page>
-          <Page bg={"/images/w/3.jpg"}>
-            러스틱티크
-          </Page>
-          <Page bg={"/images/w/4.jpg"}>
-            멀바우
-          </Page>
-          <Page bg={"/images/w/5.jpg"}>
-            브라운오크
-          </Page>
-          <Page bg={"/images/w/6.jpg"}>
-            빈티지샌드브라운
-          </Page>
-          <Page bg={"/images/w/7.jpg"}>
-            빈티지오크
-          </Page>
-          <Page bg={"/images/w/8.jpg"}>
-            빈티지웨이브
-          </Page>
-          <Page bg={"/images/w/9.jpg"}>
-            샌드브라운
-          </Page>
-          <Page bg={"/images/w/10.jpg"}>
-            소프트그레이
-          </Page>
-          <Page bg={"/images/w/11.jpg"}>
-            스노우베이지
-          </Page>
-          <Page bg={"/images/w/12.jpg"}>
-            워시오크
-          </Page>
-          <Page bg={"/images/w/13.jpg"}>
-            월넛
-          </Page>
-          <Page bg={"/images/w/14.jpg"}>
             티크
           </Page>
-          <Page bg={"/images/w/15.jpg"}>
+          <Page bg={"/images/w/3.jpg"}>
+            샌드브라운
+          </Page>
+          <Page bg={"/images/w/4.jpg"}>
+            스노우베이지
+          </Page>
+          <Page bg={"/images/w/5.jpg"}>
+            워시오크
+          </Page>
+          <Page bg={"/images/w/6.jpg"}>
+            브라운오크
+          </Page>
+          <Page bg={"/images/w/7.jpg"}>
+            소프트그레이
+          </Page>
+          <Page bg={"/images/w/8.jpg"}>
+            월넛
+          </Page>
+          <Page bg={"/images/w/9.jpg"}>
+            멀바우
+          </Page>
+          <Page bg={"/images/w/10.jpg"}>
             프렌치블랙
+          </Page>
+          <Page bg={"/images/w/11.jpg"}>
+            빈티지오크
+          </Page>
+          <Page bg={"/images/w/12.jpg"}>
+            빈티지샌드브라운
+          </Page>
+          <Page bg={"/images/w/13.jpg"}>
+            빈티지웨이브
+          </Page>
+          <Page bg={"/images/w/14.jpg"}>
+            러스틱티크
+          </Page>
+          <Page bg={"/images/w/15.jpg"}>
+            러스틱멀바우
           </Page>
           <Page bg={"/images/st.png"}></Page>
           <Page bg={"/images/st_pattern.jpeg"}></Page>
@@ -221,31 +221,37 @@ class DemoBook extends React.Component {
             내추럴오크
           </Page>
           <Page bg={"/images/st/2.jpg"}>
-            버건디로즈
+            화이트워시오크N
           </Page>
           <Page bg={"/images/st/3.jpg"}>
-            애쉬 L.브라운
+            카키브라운
           </Page>
           <Page bg={"/images/st/4.jpg"}>
-            애쉬그레이
+            버건디로즈
           </Page>
           <Page bg={"/images/st/5.jpg"}>
             애쉬내추럴
           </Page>
           <Page bg={"/images/st/6.jpg"}>
-            언더포레스트
+            애쉬L.브라운
           </Page>
           <Page bg={"/images/st/7.jpg"}>
-            젠틀브라운
+            애쉬그레이
           </Page>
           <Page bg={"/images/st/8.jpg"}>
-            카키브라운
+            허니멀바우
           </Page>
           <Page bg={"/images/st/9.jpg"}>
-            코지다크
+            앤틱티크
           </Page>
           <Page bg={"/images/st/10.jpg"}>
-            화이트워시오크N
+            언더포레스트
+          </Page>
+          <Page bg={"/images/st/11.jpg"}>
+            젠틀브라운
+          </Page>
+          <Page bg={"/images/st/12.jpg"}>
+            코지다크
           </Page>
           <Page bg={"/images/b.png"}></Page>
           <Page bg={"/images/b_pattern.jpeg"}></Page>
@@ -253,10 +259,10 @@ class DemoBook extends React.Component {
             내추럴오크
           </Page>
           <Page bg={"/images/b/2.jpg"}>
-            브라운리버
+            비치샌드
           </Page>
           <Page bg={"/images/b/3.jpg"}>
-            비치샌드
+            브라운리버
           </Page>
           <Page bg={"/images/k.png"}></Page>
           <Page bg={"/images/k_pattern.jpeg"}></Page>
@@ -433,15 +439,16 @@ class DemoBook extends React.Component {
           <div className="indexchild" onClick={() => this.movePage(17)}>원목마루 M</div>
           <div className="indexchild" onClick={() => this.movePage(23)}>원목마루 W</div>
           <div className="indexchild" onClick={() => this.movePage(39)}>원목마루 ST</div>
-          <div className="indexchild" onClick={() => this.movePage(51)}>원목마루 B</div>
-          <div className="indexchild" onClick={() => this.movePage(55)}>원목마루 K</div>
-          <div className="indexchild" onClick={() => this.movePage(63)}>강마루</div>
-          <div className="indexchild" onClick={() => this.movePage(79)}>강마루 와이드</div>
-          <div className="indexchild" onClick={() => this.movePage(91)}>노블 강마루</div>
-          <div className="indexchild" onClick={() => this.movePage(103)}>천연마루</div>
-          <div className="indexchild" onClick={() => this.movePage(109)}>황토풀</div>
-          <div className="indexchild" onClick={() => this.movePage(113)}>오시는길</div>
+          <div className="indexchild" onClick={() => this.movePage(53)}>원목마루 B</div>
+          <div className="indexchild" onClick={() => this.movePage(59)}>원목마루 K</div>
+          <div className="indexchild" onClick={() => this.movePage(65)}>강마루</div>
+          <div className="indexchild" onClick={() => this.movePage(71)}>강마루 와이드</div>
+          <div className="indexchild" onClick={() => this.movePage(93)}>노블 강마루</div>
+          <div className="indexchild" onClick={() => this.movePage(105)}>천연마루</div>
+          <div className="indexchild" onClick={() => this.movePage(111)}>황토풀</div>
+          <div className="indexchild" onClick={() => this.movePage(115)}>오시는길</div>
         </div>
+
         <div className="container">
           <div>
             <button type="button" onClick={this.prevButtonClick}>
@@ -466,14 +473,14 @@ class DemoBook extends React.Component {
           <div onClick={() => this.movePage(17)}>원목마루 M</div>
           <div onClick={() => this.movePage(23)}>원목마루 W</div>
           <div onClick={() => this.movePage(39)}>원목마루 ST</div>
-          <div onClick={() => this.movePage(51)}>원목마루 B</div>
-          <div onClick={() => this.movePage(55)}>원목마루 K</div>
-          <div onClick={() => this.movePage(63)}>강마루</div>
-          <div onClick={() => this.movePage(79)}>강마루 와이드</div>
-          <div onClick={() => this.movePage(91)}>노블 강마루</div>
-          <div onClick={() => this.movePage(103)}>천연마루</div>
-          <div onClick={() => this.movePage(109)}>황토풀</div>
-          <div onClick={() => this.movePage(113)}>오시는길</div>
+          <div onClick={() => this.movePage(53)}>원목마루 B</div>
+          <div onClick={() => this.movePage(59)}>원목마루 K</div>
+          <div onClick={() => this.movePage(65)}>강마루</div>
+          <div onClick={() => this.movePage(81)}>강마루 와이드</div>
+          <div onClick={() => this.movePage(93)}>노블 강마루</div>
+          <div onClick={() => this.movePage(105)}>천연마루</div>
+          <div onClick={() => this.movePage(111)}>황토풀</div>
+          <div onClick={() => this.movePage(115)}>오시는길</div>
         </div>
       </div >
     );
