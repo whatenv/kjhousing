@@ -27,8 +27,6 @@ const Page = React.forwardRef((props, ref) => {
           backgroundImage: "url(" + process.env.PUBLIC_URL + `${props.bg})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
-          // backgroundImage: `url("/images/front.png")`,
-          // backgroundPosition: "center",
         }}
       >
         {/* <h2 className="page-header">Page header - {props.number}</h2> */}
@@ -58,11 +56,32 @@ class DemoBook extends React.Component {
     this.flipBook.getPageFlip().flipPrev();
   };
 
+  movePage = () => {
+    // this.flipBook.getPageFlip().flipNext();
+  };
+
   onPage = (e) => {
     this.setState({
       page: e.data,
     });
   };
+
+  openNav = () => {
+    document.getElementById("sidenav").style.width = "250px";
+  };
+
+  closeNav = () => {
+    document.getElementById("sidenav").style.width = "0px";
+  };
+
+
+
+  // movePage = () => {
+  //   this.flipBook.getPageFlip().flipNext();
+  //   // this.flipBook.getPageFlip().turnToPage(number);
+  //   // this.flipBook.getPageFlip().flip(number, 'top');
+  //   // console.log(this.flipBook.getPageFlip());
+  // };
 
   componentDidMount() {
     this.setState({
@@ -73,6 +92,11 @@ class DemoBook extends React.Component {
   render() {
     return (
       <div className="veryoutside">
+        <div className="topbar">
+          <div onClick={this.openNav}>탭</div>
+          <div>구정하우징 | 노바마루 총판</div>
+          <div>Home</div>
+        </div>
         <HTMLFlipBook
           width={450}
           height={670}
@@ -380,7 +404,7 @@ class DemoBook extends React.Component {
             오시는길
             <div width="100%"><iframe title="map" className="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12642.352997671429!2d127.18949133463865!3d37.61184852468095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb690e1f0d159%3A0x98387b3205cc95ff!2z6rK96riw64-EIOuCqOyWkeyjvOyLnCDslpHsoJXroZw!5e0!3m2!1sko!2skr!4v1596842478655!5m2!1sko!2skr"
-              width="400" height="450" frameborder="0" >
+              width="400" height="450" frameBorder="0" >
             </iframe></div>
             <p className="small">경기도 남양주시 양정로 106 (일패동) 구정하우징</p>
           </Page>
@@ -397,21 +421,20 @@ class DemoBook extends React.Component {
           <i className="fa fa-angle-right"></i>
         </button>
         <div className="index">
-          <div className="indexchild"><span>표지</span></div>
-          <div className="indexchild">목차</div>
-          <div className="indexchild">원목마루 S</div>
-          <div className="indexchild">원목마루 M</div>
-          <div className="indexchild">원목마루 W</div>
-          <div className="indexchild">원목마루 ST</div>
-          <div className="indexchild">원목마루 B</div>
-          <div className="indexchild">원목마루 K</div>
-          <div className="indexchild">강마루</div>
-          <div className="indexchild">강마루 헤링본</div>
-          <div className="indexchild">강마루 와이드</div>
-          <div className="indexchild">노블 강마루</div>
-          <div className="indexchild">천연마루</div>
-          <div className="indexchild">황토풀</div>
-          <div className="indexchild">오시는길</div>
+          <div className="indexchild" onClick={this.movePage(0)}><span>표지</span></div>
+          <div className="indexchild" onClick={this.movePage(1)} > 목차</div>
+          <div className="indexchild" onClick={this.movePage(5)}>원목마루 S</div>
+          <div className="indexchild" onClick={this.movePage(17)}>원목마루 M</div>
+          <div className="indexchild" onClick={this.movePage(23)}>원목마루 W</div>
+          <div className="indexchild" onClick={this.movePage(39)}>원목마루 ST</div>
+          <div className="indexchild" onClick={this.movePage(51)}>원목마루 B</div>
+          <div className="indexchild" onClick={this.movePage(55)}>원목마루 K</div>
+          <div className="indexchild" onClick={this.movePage(63)}>강마루</div>
+          <div className="indexchild" onClick={this.movePage(79)}>강마루 와이드</div>
+          <div className="indexchild" onClick={this.movePage(91)}>노블 강마루</div>
+          <div className="indexchild" onClick={this.movePage(103)}>천연마루</div>
+          <div className="indexchild" onClick={this.movePage(109)}>황토풀</div>
+          <div className="indexchild" onClick={this.movePage(113)}>오시는길</div>
         </div>
         <div className="container">
           <div>
@@ -428,6 +451,23 @@ class DemoBook extends React.Component {
           <div>
             Copyright &#169; 구정하우징 | 이 브로셔형 홈페이지의 저작권은 구정하우징에게 있습니다.
           </div>
+        </div>
+        <div id="sidenav">
+          <div className="closebtn" onClick={this.closeNav}>X</div>
+          <div>표지</div>
+          <div>목차</div>
+          <div>원목마루 S</div>
+          <div>원목마루 M</div>
+          <div>원목마루 W</div>
+          <div>원목마루 ST</div>
+          <div>원목마루 B</div>
+          <div>원목마루 K</div>
+          <div>강마루</div>
+          <div>강마루 와이드</div>
+          <div>노블 강마루</div>
+          <div>천연마루</div>
+          <div>황토풀</div>
+          <div>오시는길</div>
         </div>
       </div >
     );
