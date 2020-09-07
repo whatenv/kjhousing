@@ -14,6 +14,7 @@ body {
   overflow: auto;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
@@ -194,6 +195,14 @@ div .map {
 
 .small {
   font-size: 15px;
+}
+
+.left {
+  display: none;
+}
+
+.right {
+  display: none;
 }
 
 @media (max-width: 2000px
