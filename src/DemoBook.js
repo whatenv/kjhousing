@@ -451,18 +451,18 @@ class DemoBook extends React.Component {
 
         <div className="container">
           <div>
-            <button type="button" onClick={this.prevButtonClick}>
+            <button className="smallbtn" type="button" onClick={this.prevButtonClick}>
               <i className="fa fa-angle-left"></i>
             </button>
-            [<span>{this.state.page}</span>
+            <span>{this.state.page}</span>
             <span> / </span>
-            <span>{this.state.totalPage}</span>]
-            <button type="button" onClick={this.nextButtonClick}>
+            <span>{this.state.totalPage}</span>
+            <button className="smallbtn" type="button" onClick={this.nextButtonClick}>
               <i className="fa fa-angle-right"></i>
             </button>
           </div>
           <div>
-            Copyright &#169; 구정하우징 | 이 브로셔형 홈페이지의 저작권은 구정하우징에게 있습니다.
+            Copyright &#169; 구정하우징
           </div>
         </div>
         <div id="sidenav">
