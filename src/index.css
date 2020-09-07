@@ -5,8 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  background-color: #908d8d;
   /* overflow-x: hidden; */
   top: 0;
   right: 0;
@@ -21,15 +19,7 @@ code {
 
 .demo-book {
   position: relative;
-}
 
-.veryoutside {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95vh;
 }
 
 .flip-book {
@@ -147,13 +137,7 @@ code {
   box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
 }
 
-.container {
-  width: 100%;
-  position: fixed;
-  bottom: 10px;
-  text-align: center;
-  line-height: 150%;
-}
+
 
 .smallbtn {
   background: none;
@@ -209,6 +193,19 @@ div .map {
 
   /*1023px*/
 ) {
+  body {
+    background-color: #8f8d8d;
+  }
+
+  .veryoutside {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  }
+
   .left {
     position: fixed;
     left: 135px;
@@ -235,14 +232,31 @@ div .map {
 
   .page:nth-child(even) {
     border-radius: 13px 0px 0px 13px;
+    /* border-right: 1px solid #898989;
+    background: linear-gradient(to right, #fff 92%, #9f9f9f 100%); */
+
   }
 
   .page:nth-child(odd) {
     border-radius: 0px 13px 13px 0px;
+    /* border-left: 1px solid #7e7e7e;
+    background: linear-gradient(to left, #fff 95%, #898989 100%); */
+
+  }
+
+  .container {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    line-height: 150%;
+    padding: 8px 0px 8px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   .topbar {
     display: none;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7);
   }
 
   #sidenav {
@@ -251,12 +265,31 @@ div .map {
 }
 
 @media (max-width: 767px) {
-
   body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
 
+    background-color: whitesmoke;
+  }
+
+  .veryoutside {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .container {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    line-height: 150%;
+    padding: 2px 0px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.3);
   }
 
   .left {
@@ -301,14 +334,14 @@ div .map {
   }
 
   .topbar {
-    width: 100%;
-    height: 45px;
+    width: 100vw !important;
+    height: 48px;
     background-color: whitesmoke;
     display: flex;
     position: absolute;
     flex-direction: row;
     z-index: 90;
-    line-height: 45px;
+    line-height: 48px;
     top: 0;
   }
 
@@ -322,6 +355,10 @@ div .map {
 
   .topbar div:nth-child(3) {
     flex-grow: 1;
+  }
+
+  .topbar i {
+    font-size: 25px;
   }
 
   .demo-book {
