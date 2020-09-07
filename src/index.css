@@ -157,7 +157,7 @@ code {
   background-color: whitesmoke;
   border-radius: 5px;
   right: 150px;
-  z-index: -10;
+  z-index: 0;
 }
 
 .indexchild {
@@ -171,7 +171,7 @@ code {
   vertical-align: middle;
   text-align: center;
   font-weight: bold;
-
+  cursor: pointer;
 }
 
 div .map {
@@ -255,6 +255,7 @@ div .map {
     bottom: 10px;
     text-align: center;
     line-height: 150%;
+    z-index: 100;
   }
 
   .topbar {

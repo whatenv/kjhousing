@@ -54,10 +54,16 @@ class DemoBook extends React.Component {
 
   prevButtonClick = () => {
     this.flipBook.getPageFlip().flipPrev();
+    console.log(this.flipBook.getPageFlip());
+
   };
 
-  movePage = () => {
-    // this.flipBook.getPageFlip().flipNext();
+  movePage = (e) => {
+    this.setState({
+      page: e.data,
+    });
+    console.log(this.flipBook.getPageFlip());
+    this.flipBook.getPageFlip().turnToPage(e);
   };
 
   onPage = (e) => {
@@ -421,20 +427,20 @@ class DemoBook extends React.Component {
           <i className="fa fa-angle-right"></i>
         </button>
         <div className="index">
-          <div className="indexchild" onClick={this.movePage(0)}><span>표지</span></div>
-          <div className="indexchild" onClick={this.movePage(1)} > 목차</div>
-          <div className="indexchild" onClick={this.movePage(5)}>원목마루 S</div>
-          <div className="indexchild" onClick={this.movePage(17)}>원목마루 M</div>
-          <div className="indexchild" onClick={this.movePage(23)}>원목마루 W</div>
-          <div className="indexchild" onClick={this.movePage(39)}>원목마루 ST</div>
-          <div className="indexchild" onClick={this.movePage(51)}>원목마루 B</div>
-          <div className="indexchild" onClick={this.movePage(55)}>원목마루 K</div>
-          <div className="indexchild" onClick={this.movePage(63)}>강마루</div>
-          <div className="indexchild" onClick={this.movePage(79)}>강마루 와이드</div>
-          <div className="indexchild" onClick={this.movePage(91)}>노블 강마루</div>
-          <div className="indexchild" onClick={this.movePage(103)}>천연마루</div>
-          <div className="indexchild" onClick={this.movePage(109)}>황토풀</div>
-          <div className="indexchild" onClick={this.movePage(113)}>오시는길</div>
+          <div className="indexchild" onClick={() => this.movePage(0)}><span>표지</span></div>
+          <div className="indexchild" onClick={() => this.movePage(1)}> 목차</div>
+          <div className="indexchild" onClick={() => this.movePage(5)}>원목마루 S</div>
+          <div className="indexchild" onClick={() => this.movePage(17)}>원목마루 M</div>
+          <div className="indexchild" onClick={() => this.movePage(23)}>원목마루 W</div>
+          <div className="indexchild" onClick={() => this.movePage(39)}>원목마루 ST</div>
+          <div className="indexchild" onClick={() => this.movePage(51)}>원목마루 B</div>
+          <div className="indexchild" onClick={() => this.movePage(55)}>원목마루 K</div>
+          <div className="indexchild" onClick={() => this.movePage(63)}>강마루</div>
+          <div className="indexchild" onClick={() => this.movePage(79)}>강마루 와이드</div>
+          <div className="indexchild" onClick={() => this.movePage(91)}>노블 강마루</div>
+          <div className="indexchild" onClick={() => this.movePage(103)}>천연마루</div>
+          <div className="indexchild" onClick={() => this.movePage(109)}>황토풀</div>
+          <div className="indexchild" onClick={() => this.movePage(113)}>오시는길</div>
         </div>
         <div className="container">
           <div>
@@ -454,20 +460,20 @@ class DemoBook extends React.Component {
         </div>
         <div id="sidenav">
           <div className="closebtn" onClick={this.closeNav}>X</div>
-          <div>표지</div>
-          <div>목차</div>
-          <div>원목마루 S</div>
-          <div>원목마루 M</div>
-          <div>원목마루 W</div>
-          <div>원목마루 ST</div>
-          <div>원목마루 B</div>
-          <div>원목마루 K</div>
-          <div>강마루</div>
-          <div>강마루 와이드</div>
-          <div>노블 강마루</div>
-          <div>천연마루</div>
-          <div>황토풀</div>
-          <div>오시는길</div>
+          <div onClick={() => this.movePage(0)}>표지</div>
+          <div onClick={() => this.movePage(1)}>목차</div>
+          <div onClick={() => this.movePage(5)}>원목마루 S</div>
+          <div onClick={() => this.movePage(17)}>원목마루 M</div>
+          <div onClick={() => this.movePage(23)}>원목마루 W</div>
+          <div onClick={() => this.movePage(39)}>원목마루 ST</div>
+          <div onClick={() => this.movePage(51)}>원목마루 B</div>
+          <div onClick={() => this.movePage(55)}>원목마루 K</div>
+          <div onClick={() => this.movePage(63)}>강마루</div>
+          <div onClick={() => this.movePage(79)}>강마루 와이드</div>
+          <div onClick={() => this.movePage(91)}>노블 강마루</div>
+          <div onClick={() => this.movePage(103)}>천연마루</div>
+          <div onClick={() => this.movePage(109)}>황토풀</div>
+          <div onClick={() => this.movePage(113)}>오시는길</div>
         </div>
       </div >
     );
