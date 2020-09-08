@@ -9,6 +9,8 @@ const PageCover = React.forwardRef((props, ref) => {
         backgroundImage: "url(" + process.env.PUBLIC_URL + `${props.bg})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
+        width: "100%"
+
         // backgroundImage: `url("/images/front.png")`,
         // backgroundPosition: "center",
       }}>
@@ -27,6 +29,7 @@ const Page = React.forwardRef((props, ref) => {
           backgroundImage: "url(" + process.env.PUBLIC_URL + `${props.bg})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
+          width: "100%"
         }}
       >
         {/* <h2 className="page-header">Page header - {props.number}</h2> */}
@@ -34,7 +37,7 @@ const Page = React.forwardRef((props, ref) => {
         <div className="page-text">{props.children}</div>
         {/* <div className="page-footer">{props.number + 1}</div> */}
       </div>
-    </div>
+    </div >
   );
 });
 
@@ -429,10 +432,10 @@ class DemoBook extends React.Component {
           <PageCover>www.kujunghousing.com<br></br>blog.naver.com/kujunghousing<br></br>031-576-4003</PageCover>
         </HTMLFlipBook>
 
-        <button className="left" type="button" onClick={this.prevButtonClick}>
+        <button className="left" type="button">
           <i className="fa fa-angle-left"></i>
         </button>
-        <button className="right" type="button" onClick={this.nextButtonClick}>
+        <button className="right" type="button">
           <i className="fa fa-angle-right"></i>
         </button>
         <div className="index">

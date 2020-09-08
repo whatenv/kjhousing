@@ -9,7 +9,7 @@ body {
   top: 0;
   right: 0;
 
-  overflow: auto;
+  overflow: hidden;
 }
 
 
@@ -201,12 +201,12 @@ div .map {
 
   .left {
     position: fixed;
-    right: calc(50% + 400px);
+    left: calc(50% - 450px);
   }
 
   .right {
     position: fixed;
-    left: calc(50% + 400px);
+    right: calc(50% - 450px);
 
   }
 
@@ -261,7 +261,9 @@ div .map {
     width: 100vw;
     height: 100vh;
     margin: 0px;
-
+    position: fixed;
+    top: 0px;
+    right: 0px;
     background-color: whitesmoke;
   }
 
@@ -319,7 +321,9 @@ div .map {
     font-size: 8px;
     width: 100%;
     position: fixed;
-    bottom: 10px;
+    right: 0px;
+    bottom: 0px;
+    padding-bottom: 5px;
     text-align: center;
     line-height: 150%;
     z-index: 100;
@@ -330,7 +334,7 @@ div .map {
     height: 48px;
     background-color: whitesmoke;
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: row;
     z-index: 90;
     line-height: 48px;
@@ -353,18 +357,30 @@ div .map {
     font-size: 25px;
   }
 
-  .demo-book {
-    top: 50px;
-  }
-
   .index {
     /* display: none; */
     text-align: center;
   }
 
-  /* .demo-book {
-    width: 100%;
-  } */
+  .demo-book {
+    position: fixed;
+    top: 50px;
+    min-width: 300px !important;
+  }
+
+  .stf__wrapper {
+    padding-bottom: 0 !important;
+  }
+
+  .demo-book div div {
+    /* left: 0px; */
+  }
+
+  .demo-book div div div {
+    width: 100% !important;
+    /* left: 0px !important; */
+  }
+
 
   #sidenav {
     height: 100%;
