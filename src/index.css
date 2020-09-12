@@ -68,7 +68,7 @@ code {
 .page .page-content .page-text {
   height: 100%;
   flex-grow: 1;
-  font-size: 80%;
+  font-size: 60%;
   text-align: justify;
   /* margin-top: 10px;
   padding-top: 10px; */
@@ -148,7 +148,7 @@ code {
 
 .index {
   position: fixed;
-  width: 130px;
+  width: 145px;
   height: 610px;
   background-color: whitesmoke;
   border-radius: 0px 5px 5px 0px;
@@ -158,7 +158,7 @@ code {
 }
 
 .indexchild {
-  width: 110px;
+  width: 125px;
   height: 38px;
   line-height: 38px;
   background-color: grey;
@@ -170,6 +170,7 @@ code {
   font-weight: bold;
   cursor: pointer;
   padding-left: 10px;
+  font-size: 15px;
 
 }
 
