@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb37c02cce40465996306ad6021af1b1",
+    "revision": "94a8cfc7f819e7b67855167089914bb2",
     "url": "/kjhousing/index.html"
   },
   {
-    "revision": "eb7bb23e7aa4b438dbca",
-    "url": "/kjhousing/static/css/main.5b0b525a.chunk.css"
+    "revision": "4f674c0161d4ebc97204",
+    "url": "/kjhousing/static/css/main.f4804eb8.chunk.css"
   },
   {
     "revision": "66919851e47136d0f98e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kjhousing/static/js/2.1370c5b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb7bb23e7aa4b438dbca",
-    "url": "/kjhousing/static/js/main.70a7c10b.chunk.js"
+    "revision": "4f674c0161d4ebc97204",
+    "url": "/kjhousing/static/js/main.080b700e.chunk.js"
   },
   {
     "revision": "1272d52d583a83daaebe",
