@@ -84,7 +84,6 @@ class DemoBook extends React.Component {
   closeNav = () => {
     document.getElementById("sidenav").style.width = "0px";
     console.log("CLOSE NAV");
-
   };
 
 
@@ -474,20 +473,20 @@ class DemoBook extends React.Component {
         </div>
         <div id="sidenav">
           <div className="closebtn" onClick={this.closeNav}>X</div>
-          <div onClick={() => this.movePage(0)}>표지</div>
-          <div onClick={() => this.movePage(1)}>목차</div>
-          <div onClick={() => this.movePage(5)}>원목마루 S시리즈</div>
-          <div onClick={() => this.movePage(17)}>원목마루 M시리즈</div>
-          <div onClick={() => this.movePage(23)}>원목마루 W시리즈</div>
-          <div onClick={() => this.movePage(39)}>원목마루 ST시리즈</div>
-          <div onClick={() => this.movePage(53)}>원목마루 B시리즈</div>
-          <div onClick={() => this.movePage(59)}>원목마루 K시리즈</div>
-          <div onClick={() => this.movePage(65)}>강마루</div>
-          <div onClick={() => this.movePage(81)}>강마루 와이드</div>
-          <div onClick={() => this.movePage(93)}>노블 강마루</div>
-          <div onClick={() => this.movePage(105)}>천연마루</div>
-          <div onClick={() => this.movePage(111)}>친환경 접착제</div>
-          <div onClick={() => this.movePage(115)}>오시는길</div>
+          <div onClick={() => { this.movePage(0); this.closeNav(); }}>표지</div>
+          <div onClick={() => { this.movePage(1); this.closeNav(); }}>목차</div>
+          <div onClick={() => { this.movePage(5); this.closeNav(); }}>원목마루 S시리즈</div>
+          <div onClick={() => { this.movePage(17); this.closeNav(); }}>원목마루 M시리즈</div>
+          <div onClick={() => { this.movePage(23); this.closeNav(); }}>원목마루 W시리즈</div>
+          <div onClick={() => { this.movePage(39); this.closeNav(); }}>원목마루 ST시리즈</div>
+          <div onClick={() => { this.movePage(53); this.closeNav(); }}>원목마루 B시리즈</div>
+          <div onClick={() => { this.movePage(59); this.closeNav(); }}>원목마루 K시리즈</div>
+          <div onClick={() => { this.movePage(65); this.closeNav(); }}>강마루</div>
+          <div onClick={() => { this.movePage(81); this.closeNav(); }}>강마루 와이드</div>
+          <div onClick={() => { this.movePage(93); this.closeNav(); }}>노블 강마루</div>
+          <div onClick={() => { this.movePage(105); this.closeNav(); }}>천연마루</div>
+          <div onClick={() => { this.movePage(111); this.closeNav(); }}>친환경 접착제</div>
+          <div onClick={() => { this.movePage(115); this.closeNav(); }}>오시는길</div>
         </div>
       </div >
     );
