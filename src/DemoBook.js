@@ -78,6 +78,7 @@ class DemoBook extends React.Component {
   openNav = () => {
     document.getElementById("sidenav").style.width = "250px";
     console.log("OPEN NAV");
+    console.log("Position : " + document.getElementById("sidenav").style.position);
   };
 
   closeNav = () => {
@@ -107,7 +108,7 @@ class DemoBook extends React.Component {
         <div className="topbar">
           <div onClick={this.openNav}><i className="fa fa-bars"></i></div>
           <div>노바마루 총판 구정하우징</div>
-          <div><i className="fa fa-home"></i></div>
+          <div onClick={() => this.movePage(0)}><i className="fa fa-home"></i></div>
         </div>
         <HTMLFlipBook
           width={450}
