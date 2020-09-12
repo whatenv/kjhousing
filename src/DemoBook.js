@@ -112,6 +112,9 @@ class DemoBook extends React.Component {
         <HTMLFlipBook
           width={450}
           height={670}
+          minWidth={300}
+          maxWidth={1000}
+
           maxShadowOpacity={0.5}
           showCover={true}
           mobileScrollSupport={true}
@@ -166,7 +169,7 @@ class DemoBook extends React.Component {
             원목마루 M시리즈 내추럴오크
           </Page>
           <Page bg={"/images/m/2.jpg"}>
-            원목마루 M시리즈 원목마루 M시리즈 샌드브라운
+            원목마루 M시리즈 샌드브라운
           </Page>
           <Page bg={"/images/m/3.jpg"}>
             원목마루 M시리즈 브라운토치
@@ -444,7 +447,7 @@ class DemoBook extends React.Component {
           <div className="indexchild" onClick={() => this.movePage(5)}>원목마루 S시리즈</div>
           <div className="indexchild" onClick={() => this.movePage(17)}>원목마루 M시리즈</div>
           <div className="indexchild" onClick={() => this.movePage(23)}>원목마루 W시리즈</div>
-          <div className="indexchild" onClick={() => this.movePage(39)}>원목마루 ST시리즈</div>
+          <div className="indexchild" onClick={() => this.movePage(40)}>원목마루 ST시리즈</div>
           <div className="indexchild" onClick={() => this.movePage(53)}>원목마루 B시리즈</div>
           <div className="indexchild" onClick={() => this.movePage(59)}>원목마루 K시리즈</div>
           <div className="indexchild" onClick={() => this.movePage(65)}>강마루</div>
@@ -467,7 +470,7 @@ class DemoBook extends React.Component {
               <i className="fa fa-angle-right"></i>
             </button>
           </div>
-          <div>
+          <div className="copyright">
             Copyright &#169; 구정하우징
           </div>
         </div>
@@ -478,7 +481,7 @@ class DemoBook extends React.Component {
           <div onClick={() => { this.movePage(5); this.closeNav(); }}>원목마루 S시리즈</div>
           <div onClick={() => { this.movePage(17); this.closeNav(); }}>원목마루 M시리즈</div>
           <div onClick={() => { this.movePage(23); this.closeNav(); }}>원목마루 W시리즈</div>
-          <div onClick={() => { this.movePage(39); this.closeNav(); }}>원목마루 ST시리즈</div>
+          <div onClick={() => { this.movePage(40); this.closeNav(); }}>원목마루 ST시리즈</div>
           <div onClick={() => { this.movePage(53); this.closeNav(); }}>원목마루 B시리즈</div>
           <div onClick={() => { this.movePage(59); this.closeNav(); }}>원목마루 K시리즈</div>
           <div onClick={() => { this.movePage(65); this.closeNav(); }}>강마루</div>
