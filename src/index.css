@@ -1,7 +1,9 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,14 +14,13 @@ body {
   overflow: hidden;
 }
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .demo-book {
   position: relative;
-
 }
 
 .flip-book {
@@ -89,7 +90,6 @@ code {
   bottom: 0px;
 }
 
-
 .page.--left {
   border-right: 0;
   box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.4);
@@ -130,21 +130,20 @@ code {
 }
 
 .page.page-cover.page-cover-top {
-  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5),
+    -2px 0 5px 2px rgba(0, 0, 0, 0.4);
 }
 
 .page.page-cover.page-cover-bottom {
-  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5),
+    10px 0 8px 0px rgba(0, 0, 0, 0.4);
 }
-
-
 
 .smallbtn {
   background: none;
   border: none;
   font-size: 20px;
 }
-
 
 .index {
   position: fixed;
@@ -154,7 +153,6 @@ code {
   border-radius: 0px 5px 5px 0px;
   /* right: 150px; */
   left: calc(50% + 450px);
-
 }
 
 .indexchild {
@@ -171,7 +169,6 @@ code {
   cursor: pointer;
   padding-left: 10px;
   font-size: 15px;
-
 }
 
 div .map {
@@ -182,11 +179,9 @@ div .map {
   font-size: 15px;
 }
 
-
 @media (max-width: 2000px
 
-  /*1023px*/
-) {
+  /*1023px*/) {
   body {
     background-color: #8f8d8d;
   }
@@ -208,7 +203,6 @@ div .map {
   .right {
     position: fixed;
     right: calc(50% - 450px);
-
   }
 
   .left,
@@ -227,14 +221,12 @@ div .map {
     border-radius: 13px 0px 0px 13px;
     /* border-right: 1px solid #898989;
     background: linear-gradient(to right, #fff 92%, #9f9f9f 100%); */
-
   }
 
   .page:nth-child(odd) {
     border-radius: 0px 13px 13px 0px;
     /* border-left: 1px solid #7e7e7e;
     background: linear-gradient(to left, #fff 95%, #898989 100%); */
-
   }
 
   .container {
@@ -312,7 +304,6 @@ div .map {
     color: whitesmoke;
     text-shadow: 0 0 5px black, 0 0 5px black;
     top: calc(50% - 25px);
-
   }
 
   .page:nth-child(even) {
@@ -333,6 +324,8 @@ div .map {
     text-align: center;
     line-height: 150%;
     z-index: 100;
+    background: none;
+    text-shadow: 0 0 5px white, 0 0 5px white;
   }
 
   .topbar {
@@ -345,6 +338,7 @@ div .map {
     z-index: 90;
     line-height: 48px;
     top: 0;
+    text-align: center;
   }
 
   .topbar div:nth-child(1) {
@@ -376,6 +370,11 @@ div .map {
 
   .stf__wrapper {
     padding-bottom: 0 !important;
+    /* left: 50%; */
+  }
+
+  .stf__block {
+    /* left: 65px; */
   }
 
   .demo-book div div {
@@ -386,7 +385,6 @@ div .map {
     width: 100% !important;
     /* left: 0px !important; */
   }
-
 
   #sidenav {
     display: inline-block;
@@ -415,7 +413,6 @@ div .map {
     display: block;
     transition: 0.3s;
   }
-
 
   #sidenav div:hover {
     color: #f1f1f1;
