@@ -36,42 +36,52 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/s/1.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/1.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/2.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/2.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/3.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/3.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/4.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/4.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/5.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/5.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/6.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/6.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/7.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/7.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/8.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/8.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/9.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/9.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/s/10.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/s/10.jpeg",
+    description: "원목마루 S시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m.png",
@@ -82,20 +92,24 @@ const images = [
     thumbnail: process.env.PUBLIC_URL + "/images/m_pattern.jpeg",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/m/.jpg",
+    original: process.env.PUBLIC_URL + "/images/m/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/1.jpg",
+    description: "원목마루 M시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/2.jpg",
+    description: "원목마루 M시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/3.jpg",
+    description: "원목마루 M시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/4.jpg",
+    description: "원목마루 M시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w.png",
@@ -108,62 +122,77 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/w/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/1.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/2.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/3.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/4.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/5.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/6.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/7.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/7.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/8.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/8.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/9.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/9.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/10.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/10.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/11.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/11.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/12.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/12.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/13.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/13.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/14.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/14.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/15.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/15.jpg",
+    description: "원목마루 W시리즈 ",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st.png",
@@ -947,7 +976,7 @@ class DemoBook extends React.Component {
           </div >
         </BrowserView>
         <MobileView>
-          <ImageGallery items={images} showFullscreenButton={false} showIndex={true} lazyLoad={true}
+          <ImageGallery items={images} showFullscreenButton={false} showIndex={true} lazyLoad={true} showPlayButton={false}
             ref={(el) => (this.imageGallery = el)} />
           <div className="topbar">
             <div onClick={this.openNav}><i className="fa fa-bars"></i></div>
