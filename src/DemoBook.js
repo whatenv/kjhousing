@@ -34,54 +34,54 @@ const images = [
     thumbnail: process.env.PUBLIC_URL + "/images/s_pattern.jpeg",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/1.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/1.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/1.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/1.jpg",
+    description: "원목마루 S시리즈 내추럴오크",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/2.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/2.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/2.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/2.jpg",
+    description: "원목마루 S시리즈 티크",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/3.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/3.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/3.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/3.jpg",
+    description: "원목마루 S시리즈 월넛",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/4.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/4.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/4.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/4.jpg",
+    description: "원목마루 S시리즈 멀바우",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/5.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/5.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/5.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/5.jpg",
+    description: "원목마루 S시리즈 두시에",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/6.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/6.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/6.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/6.jpg",
+    description: "원목마루 S시리즈 이로코",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/7.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/7.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/7.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/7.jpg",
+    description: "원목마루 S시리즈 카바랜덤",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/8.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/8.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/8.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/8.jpg",
+    description: "원목마루 S시리즈 버찌",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/9.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/9.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/9.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/9.jpg",
+    description: "원목마루 S시리즈 러스틱티크",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/s/10.jpeg",
-    thumbnail: process.env.PUBLIC_URL + "/images/s/10.jpeg",
-    description: "원목마루 S시리즈 ",
+    original: process.env.PUBLIC_URL + "/images/s/10.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/s/10.jpg",
+    description: "원목마루 S시리즈 러스틱멀바우",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m.png",
@@ -94,22 +94,22 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/m/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/1.jpg",
-    description: "원목마루 M시리즈 ",
+    description: "원목마루 M시리즈 내추럴오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/2.jpg",
-    description: "원목마루 M시리즈 ",
+    description: "원목마루 M시리즈 샌드브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/3.jpg",
-    description: "원목마루 M시리즈 ",
+    description: "원목마루 M시리즈 브라운토치",
   },
   {
     original: process.env.PUBLIC_URL + "/images/m/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/m/4.jpg",
-    description: "원목마루 M시리즈 ",
+    description: "원목마루 M시리즈 프렌치블랙",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w.png",
@@ -122,77 +122,77 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/w/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/1.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 내추럴오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/2.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 티크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/3.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 샌드브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/4.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 스노우베이지",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/5.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 워시오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/6.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 브라운오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/7.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/7.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 소프트그레이",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/8.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/8.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 월넛",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/9.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/9.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 멀바우",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/10.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/10.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 프렌치블랙",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/11.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/11.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 빈티지오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/12.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/12.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 빈티지샌드브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/13.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/13.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 빈티지웨이브",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/14.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/14.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 러스틱티크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/w/15.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/w/15.jpg",
-    description: "원목마루 W시리즈 ",
+    description: "원목마루 W시리즈 러스틱멀바우",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st.png",
@@ -205,54 +205,66 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/st/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/1.jpg",
+    description: "원목마루 ST시리즈 내추럴오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/2.jpg",
+    description: "원목마루 ST시리즈 화이트워시오크N",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/3.jpg",
+    description: "원목마루 ST시리즈 카키브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/4.jpg",
+    description: "원목마루 ST시리즈 버건디로즈",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/5.jpg",
+    description: "원목마루 ST시리즈 애쉬내추럴",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/6.jpg",
+    description: "원목마루 ST시리즈 애쉬L.브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/7.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/7.jpg",
+    description: "원목마루 ST시리즈 애쉬그레이",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/8.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/8.jpg",
+    description: "원목마루 ST시리즈 허니멀바우",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/9.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/9.jpg",
+    description: "원목마루 ST시리즈 앤틱티크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/10.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/10.jpg",
+    description: "원목마루 ST시리즈 언더포레스트",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/11.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/11.jpg",
+    description: "원목마루 ST시리즈 젠틀브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/st/12.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/st/12.jpg",
+    description: "원목마루 ST시리즈 코지다크",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/b.png",
-    thumbnail: process.env.PUBLIC_URL + "/images/b.png",
+    original: process.env.PUBLIC_URL + "/images/b.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/b.jpg",
   },
   {
     original: process.env.PUBLIC_URL + "/images/b_pattern.jpeg",
@@ -261,14 +273,17 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/b/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/b/1.jpg",
+    description: "원목마루 B시리즈 내추럴오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/b/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/b/2.jpg",
+    description: "원목마루 B시리즈 비치샌드",
   },
   {
     original: process.env.PUBLIC_URL + "/images/b/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/b/3.jpg",
+    description: "원목마루 B시리즈 브라운리버",
   },
   {
     original: process.env.PUBLIC_URL + "/images/k.png",
@@ -281,14 +296,17 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/k/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/k/1.jpg",
+    description: "원목마루 K시리즈 내추럴오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/k/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/k/2.jpg",
+    description: "원목마루 K시리즈 차밍마룬",
   },
   {
     original: process.env.PUBLIC_URL + "/images/k/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/k/3.jpg",
+    description: "원목마루 K시리즈 모던차콜",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang.png",
@@ -305,58 +323,72 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/gang/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/1.jpg",
+    description: "강마루 내추럴티크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/2.jpg",
+    description: "강마루 메이플",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/3.jpg",
+    description: "강마루 신브라운오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/4.jpg",
+    description: "강마루 블랙오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/5.jpg",
+    description: "강마루 오크내추럴",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/6.jpg",
+    description: "강마루 워시오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/7.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/7.jpg",
+    description: "강마루 마일드오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/8.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/8.jpg",
+    description: "강마루 화이트오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/9.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/9.jpg",
+    description: "강마루 화이트워시오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/10.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/10.jpg",
+    description: "강마루 그레이워시오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/11.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/11.jpg",
+    description: "강마루 시에라블랙",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/12.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/12.jpg",
+    description: "강마루 시에라샌드",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/13.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/13.jpg",
+    description: "강마루 시에라클라우드",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang/14.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang/14.jpg",
+    description: "강마루 토프그레이",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gangw_pattern.jpeg",
@@ -365,50 +397,62 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/1.jpg",
+    description: "강마루 와이드 라이트",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/2.jpg",
+    description: "강마루 와이드 모던그레이",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/3.jpg",
+    description: "강마루 와이드 블랙",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/4.jpg",
+    description: "강마루 와이드 빈티지다크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/5.jpg",
+    description: "강마루 와이드 빈티지아이보리",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/6.jpg",
+    description: "강마루 와이드 스모크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/7.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/7.jpg",
+    description: "강마루 와이드 앤틱",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/8.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/8.jpg",
+    description: "강마루 와이드 오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/9.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/9.jpg",
+    description: "강마루 와이드 크림",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/10.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/10.jpg",
+    description: "강마루 와이드 화이트그레이",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/11.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/11.jpg",
+    description: "강마루 와이드 빈티지프로스트",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_w/12.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_w/12.jpg",
+    description: "강마루 와이드 오팔그레이",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gangn_pattern.jpeg",
@@ -417,38 +461,47 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/1.jpg",
+    description: "노블 강마루 리얼블랙",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/2.jpg",
+    description: "노블 강마루 리얼시티",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/3.jpg",
+    description: "노블 강마루 리얼애쉬",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/4.jpg",
+    description: "노블 강마루 리얼오크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/5.jpg",
+    description: "노블 강마루 리얼카카오",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/6.jpg",
+    description: "노블 강마루 리얼티크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/7.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/7.jpg",
+    description: "노블 강마루 마인미스트",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/8.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/8.jpg",
+    description: "노블 강마루 마인스웨이드",
   },
   {
     original: process.env.PUBLIC_URL + "/images/gang_n/9.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/gang_n/9.jpg",
+    description: "노블 강마루 마인워시",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cheon.jpeg",
@@ -461,26 +514,32 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/cheon/1.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/cheon/1.jpg",
+    description: "천연마루 애쉬아이보리",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cheon/2.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/cheon/2.jpg",
+    description: "천연마루 애쉬베이지",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cheon/3.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/cheon/3.jpg",
+    description: "천연마루 애쉬내추럴",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cheon/4.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/cheon/4.jpg",
+    description: "천연마루 애쉬브라운",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cheon/5.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/cheon/5.jpg",
+    description: "천연마루 애쉬모카",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cheon/6.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/cheon/6.jpg",
+    description: "천연마루 애쉬다크",
   },
   {
     original: process.env.PUBLIC_URL + "/images/hwang.jpeg",
@@ -489,6 +548,14 @@ const images = [
   {
     original: process.env.PUBLIC_URL + "/images/hwang_intro.jpeg",
     thumbnail: process.env.PUBLIC_URL + "/images/hwang_intro.jpeg",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/images/multi.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/multi.jpg",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/images/tintus.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/tintus.jpg",
   },
 ];
 
@@ -981,7 +1048,7 @@ class DemoBook extends React.Component {
           <div className="topbar">
             <div onClick={this.openNav}><i className="fa fa-bars"></i></div>
             <div>노바마루 총판 구정하우징</div>
-            <div onClick={() => this.movePage(0)}><i className="fa fa-home"></i></div>
+            <div onClick={() => this.imageGallery.slideToIndex(0)}><i className="fa fa-home"></i></div>
           </div>
           <div id="sidenav">
             <div className="closebtn" onClick={this.closeNav}>X</div>
