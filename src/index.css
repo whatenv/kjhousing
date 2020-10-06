@@ -256,9 +256,9 @@ div .map {
   }
 }
 
-@media(min-width:1400px) {
+@media(max-width:1400px) {
   .index {
-    left: calc(50% +630px);
+    left: calc(50% + 630px);
 
   }
 }

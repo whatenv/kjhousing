@@ -1103,6 +1103,7 @@ class DemoBook extends React.Component {
                 <img
                   src="https://whatenv.github.io/kjhousing/images/kakaotalk.svg"
                   width="23px"
+                  alt="kakaotalk"
                 />
               </a>
             </div>
