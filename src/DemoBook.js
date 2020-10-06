@@ -1098,7 +1098,7 @@ class DemoBook extends React.Component {
               <strong>노바마루 총판 구정하우징</strong>
             </div>
             <div className="phonecall">
-              <a href="tel:+0315764003">
+              <a href="https://pf.kakao.com/_uvAQxl">
                 {/* <img src={require(process.env.PUBLIC_URL + "")} /> */}
                 <img
                   src="https://www.flaticon.com/svg/static/icons/svg/2111/2111683.svg"
