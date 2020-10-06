@@ -1101,7 +1101,7 @@ class DemoBook extends React.Component {
               <a href="https://pf.kakao.com/_uvAQxl">
                 {/* <img src={require(process.env.PUBLIC_URL + "")} /> */}
                 <img
-                  src="https://www.flaticon.com/svg/static/icons/svg/2111/2111683.svg"
+                  src="https://whatenv.github.io/kjhousing/images/kakaotalk.svg"
                   width="23px"
                 />
               </a>
