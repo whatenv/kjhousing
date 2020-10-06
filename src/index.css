@@ -256,6 +256,15 @@ div .map {
   }
 }
 
+@media(min-width:1400px) {
+  .index {
+    left: calc(50% +630px);
+
+  }
+}
+
+
+
 @media (max-width: 767px) {
   body {
     width: 100vw;
@@ -277,7 +286,7 @@ div .map {
     text-align: center;
     /* display: flex; */
     /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
   }
 
   .container {
@@ -349,7 +358,7 @@ div .map {
   }
 
   .topbar div:nth-child(1) {
-    flex-grow: 1;
+    flex-grow: 2;
   }
 
   .topbar div:nth-child(2) {
@@ -357,6 +366,10 @@ div .map {
   }
 
   .topbar div:nth-child(3) {
+    flex-grow: 1;
+  }
+
+  .topbar div:nth-child(4) {
     flex-grow: 1;
   }
 
@@ -404,7 +417,7 @@ div .map {
 
   #sidenav {
     display: inline-block;
-    height: 100%;
+    /*  */
     width: 0;
     position: fixed;
     z-index: 99;
@@ -422,7 +435,7 @@ div .map {
 
   #sidenav div {
     height: 40px;
-    padding: 2px 6px 2px 32px;
+    padding: 1.5px 6px 1.5px 32px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
@@ -437,7 +450,7 @@ div .map {
   #sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 20px;
     font-size: 30px;
     margin-left: 50px;
     margin-top: 5px;

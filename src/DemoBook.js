@@ -5,14 +5,38 @@ import { BrowserView, MobileView } from "react-device-detect";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
+const isClient = typeof window === "object";
+const windowWidth = isClient ? window.innerWidth : undefined;
+const windowHeight = isClient ? window.innerHeight : undefined;
+
 const images = [
   {
-    original: process.env.PUBLIC_URL + "/images/front.png",
-    thumbnail: process.env.PUBLIC_URL + "/images/front.png",
+    original: process.env.PUBLIC_URL + "/images/front.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/front.jpg",
   },
   {
     original: process.env.PUBLIC_URL + "/images/contents.jpg",
     thumbnail: process.env.PUBLIC_URL + "/images/contents.jpg",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/images/cert/cert.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/cert/cert.jpg",
+    description: "친환경 건축자재 인증서",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/images/cert/cert2.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/cert/cert2.jpg",
+    description: "친환경 건축자재 시험성적서",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/images/cert/cert3.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/cert/cert3.jpg",
+    description: "대한아토피협회 인증서",
+  },
+  {
+    original: process.env.PUBLIC_URL + "/images/cert/cert4.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/cert/cert4.jpg",
+    description: "제품인증서",
   },
   {
     original: process.env.PUBLIC_URL + "/images/wonmock_intro.jpeg",
@@ -622,18 +646,18 @@ class DemoBook extends React.Component {
   };
 
   prevButtonClick = () => {
-    console.log(
-      document.querySelector(
-        "#root > div > div.demo-book.stf__parent > div > div"
-      ).style.left
-    );
-    document.querySelector(
-      "#root > div > div.demo-book.stf__parent > div > div"
-    ).style.left =
-      -1 *
-      document.querySelector(
-        "#root > div > div.demo-book.stf__parent > div > div > div.page.page-cover.stf__item.--hard.--simple.--right"
-      ).style.left;
+    // console.log(
+    //   document.querySelector(
+    //     "#root > div > div.demo-book.stf__parent > div > div"
+    //   ).style.left
+    // );
+    // document.querySelector(
+    //   "#root > div > div.demo-book.stf__parent > div > div"
+    // ).style.left =
+    //   -1 *
+    //   document.querySelector(
+    //     "#root > div > div.demo-book.stf__parent > div > div > div.page.page-cover.stf__item.--hard.--simple.--right"
+    //   ).style.left;
     this.flipBook.getPageFlip().flipPrev();
     console.log(this.flipBook.getPageFlip());
   };
@@ -694,8 +718,8 @@ class DemoBook extends React.Component {
         <BrowserView>
           <div className="veryoutside">
             <HTMLFlipBook
-              width={450}
-              height={670}
+              width={windowWidth > 1600 ? 630 : 450}
+              height={windowWidth > 1600 ? 938 : 670}
               minWidth={300}
               maxWidth={1000}
               maxShadowOpacity={0.5}
@@ -707,25 +731,27 @@ class DemoBook extends React.Component {
               className="demo-book"
               ref={(el) => (this.flipBook = el)}
             >
-              <PageCover bg={"/images/front.png"}></PageCover>
+              <PageCover bg={"/images/front.jpg"}></PageCover>
               <Page bg={"/images/contents.jpg"}></Page>
-              <Page bg={"/images/"}>인증서</Page>
+              <Page bg={"/images/cert/cert.jpg"}></Page>
+              <Page bg={"/images/cert/cert4.jpg"}></Page>
+              <Page bg={"/images/cert/cert2.jpg"}></Page>
+              <Page bg={"/images/cert/cert3.jpg"}></Page>
+              <Page bg={"/images/cert/cert4.jpg"}></Page>
               <Page bg={"/images/wonmock_intro.jpeg"}></Page>
               <Page bg={"/images/wonmock.png"}></Page>
               <Page bg={"/images/s.png"}></Page>
               <Page bg={"/images/s_pattern.jpeg"}></Page>
-              <Page bg={"/images/s/1.jpeg"}>원목마루 S시리즈 내추럴오크</Page>
-              <Page bg={"/images/s/2.jpeg"}>원목마루 S시리즈 티크</Page>
-              <Page bg={"/images/s/3.jpeg"}>원목마루 S시리즈 월넛</Page>
-              <Page bg={"/images/s/4.jpeg"}>원목마루 S시리즈 멀바우</Page>
-              <Page bg={"/images/s/5.jpeg"}>원목마루 S시리즈 두시에</Page>
-              <Page bg={"/images/s/6.jpeg"}>원목마루 S시리즈 이로코</Page>
-              <Page bg={"/images/s/7.jpeg"}>원목마루 S시리즈 카바랜덤</Page>
-              <Page bg={"/images/s/8.jpeg"}>원목마루 S시리즈 버찌</Page>
-              <Page bg={"/images/s/9.jpeg"}>원목마루 S시리즈 러스틱티크</Page>
-              <Page bg={"/images/s/10.jpeg"}>
-                원목마루 S시리즈 러스틱멀바우
-              </Page>
+              <Page bg={"/images/s/1.jpg"}>원목마루 S시리즈 내추럴오크</Page>
+              <Page bg={"/images/s/2.jpg"}>원목마루 S시리즈 티크</Page>
+              <Page bg={"/images/s/3.jpg"}>원목마루 S시리즈 월넛</Page>
+              <Page bg={"/images/s/4.jpg"}>원목마루 S시리즈 멀바우</Page>
+              <Page bg={"/images/s/5.jpg"}>원목마루 S시리즈 두시에</Page>
+              <Page bg={"/images/s/6.jpg"}>원목마루 S시리즈 이로코</Page>
+              <Page bg={"/images/s/7.jpg"}>원목마루 S시리즈 카바랜덤</Page>
+              <Page bg={"/images/s/8.jpg"}>원목마루 S시리즈 버찌</Page>
+              <Page bg={"/images/s/9.jpg"}>원목마루 S시리즈 러스틱티크</Page>
+              <Page bg={"/images/s/10.jpg"}>원목마루 S시리즈 러스틱멀바우</Page>
               <Page bg={"/images/m.png"}></Page>
               <Page bg={"/images/m_pattern.jpeg"}></Page>
               <Page bg={"/images/m/1.jpg"}>원목마루 M시리즈 내추럴오크</Page>
@@ -771,7 +797,7 @@ class DemoBook extends React.Component {
               </Page>
               <Page bg={"/images/st/11.jpg"}>원목마루 ST시리즈 젠틀브라운</Page>
               <Page bg={"/images/st/12.jpg"}>원목마루 ST시리즈 코지다크</Page>
-              <Page bg={"/images/b.png"}></Page>
+              <Page bg={"/images/b.jpg"}></Page>
               <Page bg={"/images/b_pattern.jpeg"}></Page>
               <Page bg={"/images/b/1.jpg"}>원목마루 B시리즈 내추럴오크</Page>
               <Page bg={"/images/b/2.jpg"}>원목마루 B시리즈 비치샌드</Page>
@@ -837,8 +863,11 @@ class DemoBook extends React.Component {
               <Page bg={"/images/cheon/6.jpg"}>천연마루 애쉬다크</Page>
               <Page bg={"/images/hwang.jpeg"}></Page>
               <Page bg={"/images/hwang_intro.jpeg"}></Page>
-              <Page bg={"/images/"}>황토풀 인증서</Page>
-              <Page bg={"/images/"}>
+              <Page bg={"/images/tintus.jpg"}></Page>
+              <Page bg={"/images/multi.jpg"}></Page>
+              <Page bg={"/images/cert/hwang.jpg"}>황토풀 특허</Page>
+              <Page bg={"/images/cert/hwang2.jpg"}></Page>
+              {/* <Page bg={"/images/"}>
                 오시는길
                 <div width="100%">
                   <iframe
@@ -853,12 +882,10 @@ class DemoBook extends React.Component {
                 <p className="small">
                   경기도 남양주시 양정로 106 (일패동) 구정하우징
                 </p>
-              </Page>
-              <Page bg={"/images/"}>구정하우징 전시장</Page>
-              <PageCover>
-                www.kujunghousing.com<br></br>blog.naver.com/kujunghousing
-                <br></br>031-576-4003
-              </PageCover>
+              </Page> */}
+              <Page bg={"/images/where.jpg"}>오시는길</Page>
+              <Page bg={"/images/homepage.jpg"}>구정하우징 전시장</Page>
+              <PageCover bg={"/images/end.jpg"}></PageCover>
             </HTMLFlipBook>
 
             <div className="left" type="button" onClick={this.prevButtonClick}>
@@ -875,40 +902,40 @@ class DemoBook extends React.Component {
                 {" "}
                 목차
               </div>
-              <div className="indexchild" onClick={() => this.movePage(5)}>
+              <div className="indexchild" onClick={() => this.movePage(9)}>
                 원목마루 S시리즈
               </div>
-              <div className="indexchild" onClick={() => this.movePage(17)}>
+              <div className="indexchild" onClick={() => this.movePage(21)}>
                 원목마루 M시리즈
               </div>
-              <div className="indexchild" onClick={() => this.movePage(23)}>
+              <div className="indexchild" onClick={() => this.movePage(27)}>
                 원목마루 W시리즈
               </div>
-              <div className="indexchild" onClick={() => this.movePage(40)}>
+              <div className="indexchild" onClick={() => this.movePage(44)}>
                 원목마루 ST시리즈
               </div>
-              <div className="indexchild" onClick={() => this.movePage(54)}>
+              <div className="indexchild" onClick={() => this.movePage(58)}>
                 원목마루 B시리즈
               </div>
-              <div className="indexchild" onClick={() => this.movePage(59)}>
+              <div className="indexchild" onClick={() => this.movePage(63)}>
                 원목마루 K시리즈
               </div>
-              <div className="indexchild" onClick={() => this.movePage(65)}>
+              <div className="indexchild" onClick={() => this.movePage(69)}>
                 강마루
               </div>
-              <div className="indexchild" onClick={() => this.movePage(71)}>
+              <div className="indexchild" onClick={() => this.movePage(75)}>
                 강마루 와이드
               </div>
-              <div className="indexchild" onClick={() => this.movePage(93)}>
+              <div className="indexchild" onClick={() => this.movePage(97)}>
                 노블 강마루
               </div>
-              <div className="indexchild" onClick={() => this.movePage(105)}>
+              <div className="indexchild" onClick={() => this.movePage(109)}>
                 천연마루
               </div>
-              <div className="indexchild" onClick={() => this.movePage(111)}>
+              <div className="indexchild" onClick={() => this.movePage(115)}>
                 친환경 접착제
               </div>
-              <div className="indexchild" onClick={() => this.movePage(115)}>
+              <div className="indexchild" onClick={() => this.movePage(121)}>
                 오시는길
               </div>
             </div>
@@ -1072,6 +1099,15 @@ class DemoBook extends React.Component {
             </div>
             <div className="phonecall">
               <a href="tel:+0315764003">
+                {/* <img src={require(process.env.PUBLIC_URL + "")} /> */}
+                <img
+                  src="https://www.flaticon.com/svg/static/icons/svg/2111/2111683.svg"
+                  width="23px"
+                />
+              </a>
+            </div>
+            <div className="phonecall">
+              <a href="tel:+0315764003">
                 <i className="fa fa-phone"></i>
               </a>
             </div>
@@ -1098,7 +1134,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(5);
+                this.imageGallery.slideToIndex(9);
                 this.closeNav();
               }}
             >
@@ -1106,7 +1142,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(17);
+                this.imageGallery.slideToIndex(21);
                 this.closeNav();
               }}
             >
@@ -1114,7 +1150,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(23);
+                this.imageGallery.slideToIndex(27);
                 this.closeNav();
               }}
             >
@@ -1122,7 +1158,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(40);
+                this.imageGallery.slideToIndex(44);
                 this.closeNav();
               }}
             >
@@ -1130,7 +1166,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(54);
+                this.imageGallery.slideToIndex(58);
                 this.closeNav();
               }}
             >
@@ -1138,7 +1174,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(59);
+                this.imageGallery.slideToIndex(63);
                 this.closeNav();
               }}
             >
@@ -1146,7 +1182,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(65);
+                this.imageGallery.slideToIndex(69);
                 this.closeNav();
               }}
             >
@@ -1154,7 +1190,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(81);
+                this.imageGallery.slideToIndex(85);
                 this.closeNav();
               }}
             >
@@ -1162,7 +1198,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(93);
+                this.imageGallery.slideToIndex(97);
                 this.closeNav();
               }}
             >
@@ -1170,7 +1206,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(105);
+                this.imageGallery.slideToIndex(109);
                 this.closeNav();
               }}
             >
@@ -1178,7 +1214,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(111);
+                this.imageGallery.slideToIndex(115);
                 this.closeNav();
               }}
             >
@@ -1186,7 +1222,7 @@ class DemoBook extends React.Component {
             </div>
             <div
               onClick={() => {
-                this.imageGallery.slideToIndex(115);
+                this.imageGallery.slideToIndex(119);
                 this.closeNav();
               }}
             >
