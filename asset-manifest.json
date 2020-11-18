@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kjhousing/static/css/main.1a7dab5a.chunk.css",
-    "main.js": "/kjhousing/static/js/main.3d0c4d6b.chunk.js",
-    "main.js.map": "/kjhousing/static/js/main.3d0c4d6b.chunk.js.map",
+    "main.js": "/kjhousing/static/js/main.cbfd05f5.chunk.js",
+    "main.js.map": "/kjhousing/static/js/main.cbfd05f5.chunk.js.map",
     "runtime-main.js": "/kjhousing/static/js/runtime-main.95bc5e9d.js",
     "runtime-main.js.map": "/kjhousing/static/js/runtime-main.95bc5e9d.js.map",
     "static/css/2.6fe6bce5.chunk.css": "/kjhousing/static/css/2.6fe6bce5.chunk.css",
     "static/js/2.34a585e8.chunk.js": "/kjhousing/static/js/2.34a585e8.chunk.js",
     "static/js/2.34a585e8.chunk.js.map": "/kjhousing/static/js/2.34a585e8.chunk.js.map",
     "index.html": "/kjhousing/index.html",
-    "precache-manifest.d763e20747b6d2bffed1d57088650536.js": "/kjhousing/precache-manifest.d763e20747b6d2bffed1d57088650536.js",
+    "precache-manifest.4fb74d9c85d363ab6d1a08d1b6f8d7ee.js": "/kjhousing/precache-manifest.4fb74d9c85d363ab6d1a08d1b6f8d7ee.js",
     "service-worker.js": "/kjhousing/service-worker.js",
     "static/css/2.6fe6bce5.chunk.css.map": "/kjhousing/static/css/2.6fe6bce5.chunk.css.map",
     "static/css/main.1a7dab5a.chunk.css.map": "/kjhousing/static/css/main.1a7dab5a.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.6fe6bce5.chunk.css",
     "static/js/2.34a585e8.chunk.js",
     "static/css/main.1a7dab5a.chunk.css",
-    "static/js/main.3d0c4d6b.chunk.js"
+    "static/js/main.cbfd05f5.chunk.js"
   ]
 }
