@@ -7,21 +7,11 @@ import { Kujunghousing, Daeryuk } from "pages";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
-        <Route
-          exact
-          path={process.env.PUBLIC_URL + "/"}
-          component={Kujunghousing}
-        />
-        <Route
-          path={process.env.PUBLIC_URL + "/kujunghousing"}
-          component={Kujunghousing}
-        />
-        <Route path={process.env.PUBLIC_URL + "/daeryuk"} component={Daeryuk} />
-        <Route
-          path={process.env.PUBLIC_URL + "/kjhousing"}
-          component={Kujunghousing}
-        />
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Route exact path="/" component={Kujunghousing} />
+        <Route path="/kujunghousing" component={Kujunghousing} />
+        <Route path="/daeryuk" component={Daeryuk} />
+        <Route path="/kjhousing" component={Kujunghousing} />
       </BrowserRouter>
     );
   }
