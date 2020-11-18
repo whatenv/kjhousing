@@ -7,7 +7,7 @@ import { Kujunghousing, Daeryuk } from "pages";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/kjhousing">
         <Route exact path="/" component={Kujunghousing} />
         <Route path="/kujunghousing" component={Kujunghousing} />
         <Route path="/daeryuk" component={Daeryuk} />
