@@ -1095,7 +1095,7 @@ class Daeryuk extends React.Component {
               <strong>노바마루 총판 대륙마루</strong>
             </div>
             <div className="phonecall">
-              <a href="https://pf.kakao.com/_uvAQxl">
+              <a href="https://pf.kakao.com/_RIRWC/chat">
                 {/* <img src={require(process.env.PUBLIC_URL + "")} /> */}
                 <img
                   src="https://whatenv.github.io/kjhousing/images/kakaotalk.svg"
@@ -1105,7 +1105,7 @@ class Daeryuk extends React.Component {
               </a>
             </div>
             <div className="phonecall">
-              <a href="tel:+0315764003">
+              <a href="tel:+0627107204">
                 <i className="fa fa-phone"></i>
               </a>
             </div>
