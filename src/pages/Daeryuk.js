@@ -11,12 +11,12 @@ const windowHeight = isClient ? window.innerHeight : undefined;
 
 const images = [
   {
-    original: process.env.PUBLIC_URL + "/images/front.jpg",
-    thumbnail: process.env.PUBLIC_URL + "/images/front.jpg",
+    original: process.env.PUBLIC_URL + "/images/front_d.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/front_d.jpg",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/contents.jpg",
-    thumbnail: process.env.PUBLIC_URL + "/images/contents.jpg",
+    original: process.env.PUBLIC_URL + "/images/contents_d.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/contents_d.jpg",
   },
   {
     original: process.env.PUBLIC_URL + "/images/cert/cert.jpg",
@@ -579,13 +579,13 @@ const images = [
     thumbnail: process.env.PUBLIC_URL + "/images/tintus.jpg",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/where.jpg",
-    thumbnail: process.env.PUBLIC_URL + "/images/where.jpg",
+    original: process.env.PUBLIC_URL + "/images/where_d.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/where_d.jpg",
     description: "오시는길",
   },
   {
-    original: process.env.PUBLIC_URL + "/images/homepage.jpg",
-    thumbnail: process.env.PUBLIC_URL + "/images/homepage.jpg",
+    original: process.env.PUBLIC_URL + "/images/homepage_d.jpg",
+    thumbnail: process.env.PUBLIC_URL + "/images/homepage_d.jpg",
   },
 ];
 
@@ -731,8 +731,8 @@ class Daeryuk extends React.Component {
               className="demo-book"
               ref={(el) => (this.flipBook = el)}
             >
-              <PageCover bg={"/images/front.jpg"}></PageCover>
-              <Page bg={"/images/contents.jpg"}></Page>
+              <PageCover bg={"/images/front_d.jpg"}></PageCover>
+              <Page bg={"/images/contents_d.jpg"}></Page>
               <Page bg={"/images/cert/cert.jpg"}></Page>
               <Page bg={"/images/cert/cert4.jpg"}></Page>
               <Page bg={"/images/cert/cert2.jpg"}></Page>
@@ -880,9 +880,9 @@ class Daeryuk extends React.Component {
                   ></iframe>
                 </div>
               </Page> */}
-              <Page bg={"/images/where.jpg"}>오시는길</Page>
-              <Page bg={"/images/homepage.jpg"}>대륙마루 전시장</Page>
-              <PageCover bg={"/images/end.jpg"}></PageCover>
+              <Page bg={"/images/where_d.jpg"}>오시는길</Page>
+              <Page bg={"/images/homepage_d.jpg"}>대륙마루 전시장</Page>
+              <PageCover bg={"/images/end_d.jpg"}></PageCover>
             </HTMLFlipBook>
 
             <div className="left" type="button" onClick={this.prevButtonClick}>
